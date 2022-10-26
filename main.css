@@ -154,3 +154,19 @@ main {
 .task .actions .delete {
 	color: crimson;
 }
+
+@media only screen and (max-width: 800px) { /* Tablet */
+ main {
+	padding-right: 33%;
+ }
+
+ #new-task-form {
+	padding-right: 33%;
+ }
+}
+
+@media only screen and (max-width: 400px) {
+	main {
+		padding-right: 0%;
+	}
+}
